@@ -1,0 +1,15 @@
+Database Explanation:
+
+patient_data
+ID, first_name, last_name, DOB
+Example:
+1, 98.5, 10, "120/90", 72, 18, 85, "11/15/200"
+
+room
+ID, bed_number, start_time, end_time
+1, 1, "11/15/2024 2:20pm", "x" (x means patient still there)
+1, 1, "11/15/2024 2:20pm", "11/15/2024 4:14pm"
+
+vitals
+ID, temperature, pain_level, blood_pressure, pulse, resp_rate, oxygen, time 
+1, 98.5, 10, "120/90", 72, 18, 85, "11/15/2024 3:30"
