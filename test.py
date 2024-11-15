@@ -13,5 +13,5 @@ def addPerson(name):
         "libsql://patientdata-heyingz.turso.io",
         auth_token="eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3MzEyNTY3NzEsImlkIjoiMzg0YTcxYzQtODA3OS00NDYyLWI3MzktZDNmZWUxOGU4MzAzIn0.Dy6ULddDvLPfHKi77E9L85IfAZ-svnGynCXLQRlDuH4hSABwT7ixlNYfxE02jn35yHp3L1FZC9D4L64KpxpiCg"
     ) as client:
-        command = "INSERT INTO patietdata (patient_id, first_name, last_name, )"
+        command = "INSERT INTO patietdata (patient_id, first_name, last_name, DOB) VALUES (1234, 'Pranav', 'Sreepada', 'December 4, 2009');"
         result = client.execute(command)
